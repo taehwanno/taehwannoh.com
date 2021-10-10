@@ -345,8 +345,8 @@
   ],
   "locales": [
     {
-      "name": "English (United States)",
-      "code": "en-US",
+      "name": "Korean (South Korea)",
+      "code": "ko-KR",
       "fallbackCode": null,
       "default": true,
       "contentManagementApi": true,
@@ -354,7 +354,51 @@
       "optional": false,
       "sys": {
         "type": "Locale",
-        "id": "09Kvvkay28CRdOt7j8Ze7V",
+        "id": "2Ckrcq1jQPsg2rvl5qanAy",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "p5asbbjx1p90"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "066RqBikAjzKy0SWUEtFvH"
+          }
+        },
+        "createdAt": "2020-04-22T09:10:22Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "066RqBikAjzKy0SWUEtFvH"
+          }
+        },
+        "updatedAt": "2020-04-22T09:10:22Z"
+      }
+    },
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": "ko-KR",
+      "default": false,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": true,
+      "sys": {
+        "type": "Locale",
+        "id": "0r9ve6ThenFJ4AemCJ5Uv0",
         "version": 1,
         "space": {
           "sys": {
