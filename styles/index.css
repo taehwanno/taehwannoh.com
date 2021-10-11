@@ -3,3 +3,7 @@
 @tailwind components;
 /* purgecss end ignore */
 @tailwind utilities;
+
+.keep-all {
+  word-break: keep-all;
+}
