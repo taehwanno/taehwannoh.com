@@ -1,7 +1,8 @@
-const spaceImport = require('contentful-import')
-const exportFile = require('./export.json')
+const spaceImport = require('contentful-import');
+const exportFile = require('./export.json');
 
-const [CONTENTFUL_SPACE_ID, CONTENTFUL_MANAGEMENT_TOKEN] = process.argv.slice(2)
+const [CONTENTFUL_SPACE_ID, CONTENTFUL_MANAGEMENT_TOKEN] =
+  process.argv.slice(2);
 
 if (!CONTENTFUL_SPACE_ID || !CONTENTFUL_MANAGEMENT_TOKEN) {
   throw new Error(
@@ -10,7 +11,7 @@ if (!CONTENTFUL_SPACE_ID || !CONTENTFUL_MANAGEMENT_TOKEN) {
       'Please run the setup command as follows',
       'CONTENTFUL_SPACE_ID=XXX CONTENTFUL_MANAGEMENT_TOKEN=CFPAT-XXX npm run setup',
     ].join('\n')
-  )
+  );
 }
 
 spaceImport({
@@ -19,4 +20,4 @@ spaceImport({
   content: exportFile,
 })
   .then(() => console.log('The content model of your space is set up!'))
-  .catch((e) => console.error(e))
+  .catch((e) => console.error(e));
