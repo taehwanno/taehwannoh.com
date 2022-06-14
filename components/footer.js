@@ -54,6 +54,7 @@ export default function Footer() {
             </a>
           </div>
         </div>
+        <div className="py-4">© Taehwan Noh. All rights reserved.</div>
       </Container>
     </footer>
   );
