@@ -6,6 +6,7 @@ import HeroPost from '../components/hero-post';
 import Intro from '../components/intro';
 import Layout from '../components/layout';
 import { getAllPostsForHome } from '../lib/api';
+import { HOME_OG_IMAGE_URL } from '../lib/constants';
 
 export default function Index({ preview, allPosts }) {
   const heroPost = allPosts[0];
@@ -15,6 +16,7 @@ export default function Index({ preview, allPosts }) {
       <Layout preview={preview}>
         <Head>
           <title>taehwannoh.com</title>
+          <meta property="og:image" content={HOME_OG_IMAGE_URL} />
         </Head>
         <Container>
           <Intro />
