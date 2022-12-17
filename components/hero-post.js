@@ -1,16 +1,8 @@
 import Link from 'next/link';
-import Avatar from '../components/avatar';
 import DateComponent from '../components/date';
 import CoverImage from '../components/cover-image';
 
-export default function HeroPost({
-  title,
-  coverImage,
-  date,
-  excerpt,
-  author,
-  slug,
-}) {
+export default function HeroPost({ title, coverImage, date, excerpt, slug }) {
   return (
     <section>
       <div className="mb-8 md:mb-16">
@@ -29,7 +21,6 @@ export default function HeroPost({
         </div>
         <div>
           <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
-          {author && <Avatar name={author.name} picture={author.picture} />}
         </div>
       </div>
     </section>
