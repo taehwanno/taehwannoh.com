@@ -29,7 +29,26 @@ export default function Post({ post, morePosts, preview }) {
             <article>
               <Head>
                 <title>{post.title} | taehwannoh.com</title>
+                <meta
+                  property="og:url"
+                  content={`https://taehwannoh.com/posts/${post.slug}`}
+                />
+                <meta property="og:type" content="website" />
+                <meta property="og:title" content={post.title} />
                 <meta property="og:image" content={post.coverImage.url} />
+                <meta property="og:description" content={post.excerpt} />
+                <meta property="og:locale" content="ko_KR" />
+                <meta property="article:author" content={post.author.name} />
+                <meta name="twitter:card" content={post.excerpt} />
+                <meta name="twitter:site" content="@taehwannoh" />
+                <meta name="twitter:creator" content="@taehwannoh" />
+                <meta
+                  name="twitter:url"
+                  content={`https://taehwannoh.com/posts/${post.slug}`}
+                />
+                <meta name="twitter:title" content={post.title} />
+                <meta name="twitter:description" content={post.excerpt} />
+                <meta name="twitter:image" content={post.coverImage.url} />
               </Head>
               <PostHeader
                 title={post.title}
