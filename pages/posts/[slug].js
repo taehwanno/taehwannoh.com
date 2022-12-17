@@ -39,7 +39,7 @@ export default function Post({ post, morePosts, preview }) {
                 <meta property="og:description" content={post.excerpt} />
                 <meta property="og:locale" content="ko_KR" />
                 <meta property="article:author" content={post.author.name} />
-                <meta name="twitter:card" content={post.excerpt} />
+                <meta name="twitter:card" content="summary" />
                 <meta name="twitter:site" content="@taehwannoh" />
                 <meta name="twitter:creator" content="@taehwannoh" />
                 <meta
