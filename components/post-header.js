@@ -1,9 +1,11 @@
+import { TwitterIcon, TwitterShareButton } from 'react-share';
+
 import Avatar from '../components/avatar';
 import DateComponent from '../components/date';
 import CoverImage from '../components/cover-image';
 import PostTitle from '../components/post-title';
 
-export default function PostHeader({ title, coverImage, date, author }) {
+export default function PostHeader({ title, coverImage, date, author, url }) {
   return (
     <>
       <PostTitle>{title}</PostTitle>
@@ -17,8 +19,11 @@ export default function PostHeader({ title, coverImage, date, author }) {
         <div className="block md:hidden mb-6">
           {author && <Avatar name={author.name} picture={author.picture} />}
         </div>
-        <div className="mb-6 text-lg">
+        <div className="flex flex-row items-center mb-6 text-lg gap-x-3">
           <DateComponent dateString={date} />
+          <TwitterShareButton url={url}>
+            <TwitterIcon size={32} round />
+          </TwitterShareButton>
         </div>
       </div>
     </>
