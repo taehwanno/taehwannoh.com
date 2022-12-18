@@ -1,8 +1,24 @@
 import Link from 'next/link';
-import DateComponent from '../components/date';
-import CoverImage from '../components/cover-image';
+import DateComponent from './date';
+import CoverImage from './cover-image';
 
-export default function HeroPost({ title, coverImage, date, excerpt, slug }) {
+interface HeroPostProps {
+  title: string;
+  coverImage: {
+    url: string;
+  };
+  date: string;
+  excerpt: string;
+  slug: string;
+}
+
+export default function HeroPost({
+  title,
+  coverImage,
+  date,
+  excerpt,
+  slug,
+}: HeroPostProps) {
   return (
     <section>
       <div className="mb-8 md:mb-16">

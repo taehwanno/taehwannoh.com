@@ -1,6 +1,9 @@
+import { GetStaticPaths, GetStaticProps } from 'next';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import ErrorPage from 'next/error';
+import { ParsedUrlQuery } from 'querystring';
+
 import Container from '../../components/container';
 import PostBody from '../../components/post-body';
 import MoreStories from '../../components/more-stories';
@@ -10,10 +13,17 @@ import SectionSeparator from '../../components/section-separator';
 import Layout from '../../components/layout';
 import { getAllPostsWithSlug, getPostAndMorePosts } from '../../lib/api';
 import PostTitle from '../../components/post-title';
+import { Post } from '../../lib/api';
 
-const url = (slug) => `https://taehwannoh.com/posts/${slug}`;
+const url = (slug: string) => `https://taehwannoh.com/posts/${slug}`;
 
-export default function Post({ post, morePosts, preview }) {
+interface PostPageProps {
+  post: Post;
+  morePosts: Post[];
+  preview: boolean;
+}
+
+export default function PostPage({ post, morePosts, preview }: PostPageProps) {
   const router = useRouter();
 
   if (!router.isFallback && !post) {
@@ -51,6 +61,7 @@ export default function Post({ post, morePosts, preview }) {
                 coverImage={post.coverImage}
                 date={post.date}
                 author={post.author}
+                slug={post.slug}
                 url={url(post.slug)}
               />
               <PostBody content={post.content} />
@@ -66,22 +77,27 @@ export default function Post({ post, morePosts, preview }) {
   );
 }
 
-export async function getStaticProps({ params, preview = false }) {
-  const data = await getPostAndMorePosts(params.slug, preview);
-
-  return {
-    props: {
-      preview,
-      post: data?.post ?? null,
-      morePosts: data?.morePosts ?? null,
-    },
-  };
+interface PostPageParams extends ParsedUrlQuery {
+  slug: string;
 }
 
-export async function getStaticPaths() {
+export const getStaticProps: GetStaticProps<PostPageProps, PostPageParams> =
+  async ({ params, preview = false }) => {
+    const data = await getPostAndMorePosts(params!.slug, preview);
+
+    return {
+      props: {
+        preview,
+        post: data?.post ?? null,
+        morePosts: data?.morePosts ?? null,
+      },
+    };
+  };
+
+export const getStaticPaths: GetStaticPaths = async () => {
   const allPosts = await getAllPostsWithSlug();
   return {
     paths: allPosts?.map(({ slug }) => `/posts/${slug}`) ?? [],
     fallback: true,
   };
-}
+};

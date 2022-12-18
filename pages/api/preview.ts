@@ -1,7 +1,11 @@
+import { NextApiRequest, NextApiResponse } from 'next';
 import { getPreviewPostBySlug } from '../../lib/api';
 
-export default async function preview(req, res) {
-  const { secret, slug } = req.query;
+export default async function preview(
+  req: NextApiRequest,
+  res: NextApiResponse
+) {
+  const { secret, slug } = req.query as { secret: string; slug: string };
 
   if (secret !== process.env.CONTENTFUL_PREVIEW_SECRET || !slug) {
     return res.status(401).json({ message: 'Invalid token' });
