@@ -35,6 +35,7 @@ export const generateRssFeed = async (posts: Post[]) => {
       title: post.title,
       id: url,
       link: url,
+      image: post.coverImage.url,
       description: post.excerpt,
       content: documentToPlainTextString(post.content.json),
       author: [author],
