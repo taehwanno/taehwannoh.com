@@ -1,4 +1,11 @@
-import { TwitterIcon, TwitterShareButton } from 'react-share';
+import {
+  FacebookIcon,
+  FacebookShareButton,
+  LinkedinIcon,
+  LinkedinShareButton,
+  TwitterIcon,
+  TwitterShareButton,
+} from 'react-share';
 
 import Avatar from '../components/avatar';
 import DateComponent from '../components/date';
@@ -24,6 +31,12 @@ export default function PostHeader({ title, coverImage, date, author, url }) {
           <TwitterShareButton url={url}>
             <TwitterIcon size={32} round />
           </TwitterShareButton>
+          <FacebookShareButton url={url}>
+            <FacebookIcon size={32} round />
+          </FacebookShareButton>
+          <LinkedinShareButton url={url}>
+            <LinkedinIcon size={32} round />
+          </LinkedinShareButton>
         </div>
       </div>
     </>
