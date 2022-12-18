@@ -40,7 +40,7 @@
   resolved "https://registry.yarnpkg.com/@corex/deepmerge/-/deepmerge-4.0.22.tgz#76260a7840733b5fc3773e2d464094661760c521"
   integrity sha512-PARVBRhvf3eBfag/sJMoTfAE3a5xhW3Jio7pvN9HcPy06PQnBM0j0ozCdSC0pkocMEizI5giBX3TSWFqVeMo+A==
 
-"@next/env@13.0.7":
+"@next/env@13.0.7", "@next/env@^13.0.7":
   version "13.0.7"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-13.0.7.tgz#7b6ccd9006d3fb57c369e3fb62b28e15324141e9"
   integrity sha512-ZBclBRB7DbkSswXgbJ+muF5RxfgmAuQKAWL8tcm86aZmoiL1ZainxQK0hMcMYdh+IYG8UObAKV2wKB5O+6P4ng==
