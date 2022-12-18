@@ -1,6 +1,6 @@
 import { Document } from '@contentful/rich-text-types';
 
-const POST_GRAPHQL_FIELDS = `
+const POST_GRAPHQL_FIELD = `
   slug
   title
   coverImage {
@@ -16,6 +16,15 @@ const POST_GRAPHQL_FIELDS = `
   excerpt
   content {
     json
+  }
+`;
+
+const POST_GRAPHQL_FIELDS = `
+  ${POST_GRAPHQL_FIELD}
+  postReferenceCollection(limit: 2) {
+    items {
+      ${POST_GRAPHQL_FIELD}
+    }
   }
 `;
 
@@ -54,6 +63,9 @@ export interface Post {
     };
   };
   date: string;
+  postReferenceCollection: {
+    items: Post[];
+  };
 }
 
 interface FetchResponse {
@@ -70,6 +82,10 @@ function extractPost(fetchResponse: FetchResponse): Post {
 
 function extractPostEntries(fetchResponse: FetchResponse): Post[] {
   return fetchResponse?.data?.postCollection?.items;
+}
+
+function extractPostReferenceEntires(fetchResponse: FetchResponse): Post[] {
+  return extractPost(fetchResponse).postReferenceCollection.items;
 }
 
 export async function getPreviewPostBySlug(slug: string): Promise<Post> {
@@ -132,20 +148,8 @@ export async function getPostAndMorePosts(
     }`,
     preview
   );
-  const entries = await fetchGraphQL(
-    `query {
-      postCollection(where: { slug_not_in: "${slug}" }, order: date_DESC, preview: ${
-      preview ? 'true' : 'false'
-    }, limit: 2) {
-        items {
-          ${POST_GRAPHQL_FIELDS}
-        }
-      }
-    }`,
-    preview
-  );
   return {
     post: extractPost(entry),
-    morePosts: extractPostEntries(entries),
+    morePosts: extractPostReferenceEntires(entry),
   };
 }
