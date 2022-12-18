@@ -11,14 +11,14 @@ import Layout from '../../components/layout';
 import { getAllPostsWithSlug, getPostAndMorePosts } from '../../lib/api';
 import PostTitle from '../../components/post-title';
 
+const url = (slug) => `https://taehwannoh.com/posts/${slug}`;
+
 export default function Post({ post, morePosts, preview }) {
   const router = useRouter();
 
   if (!router.isFallback && !post) {
     return <ErrorPage statusCode={404} />;
   }
-
-  const url = `https://taehwannoh.com/posts/${post.slug}`;
 
   return (
     <Layout preview={preview}>
@@ -31,7 +31,7 @@ export default function Post({ post, morePosts, preview }) {
             <article>
               <Head>
                 <title>{post.title} | taehwannoh.com</title>
-                <meta property="og:url" content={url} />
+                <meta property="og:url" content={url(post.slug)} />
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content={post.title} />
                 <meta property="og:image" content={post.coverImage.url} />
@@ -41,7 +41,7 @@ export default function Post({ post, morePosts, preview }) {
                 <meta name="twitter:card" content="summary" />
                 <meta name="twitter:site" content="@taehwannoh" />
                 <meta name="twitter:creator" content="@taehwannoh" />
-                <meta name="twitter:url" content={url} />
+                <meta name="twitter:url" content={url(post.slug)} />
                 <meta name="twitter:title" content={post.title} />
                 <meta name="twitter:description" content={post.excerpt} />
                 <meta name="twitter:image" content={post.coverImage.url} />
@@ -51,7 +51,7 @@ export default function Post({ post, morePosts, preview }) {
                 coverImage={post.coverImage}
                 date={post.date}
                 author={post.author}
-                url={url}
+                url={url(post.slug)}
               />
               <PostBody content={post.content} />
             </article>
