@@ -40,7 +40,7 @@ export default function PostPage({ post, morePosts, preview }: PostPageProps) {
           <>
             <article>
               <Head>
-                <title>{post.title} | taehwannoh.com</title>
+                <title>{`${post.title} | taehwannoh.com`}</title>
                 <meta property="og:url" content={url(post.slug)} />
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content={post.title} />
