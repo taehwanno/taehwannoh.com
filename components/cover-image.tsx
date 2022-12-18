@@ -2,7 +2,13 @@ import ContentfulImage from './contentful-image';
 import Link from 'next/link';
 import cn from 'classnames';
 
-export default function CoverImage({ title, url, slug }) {
+interface CoverImageProps {
+  title: string;
+  url: string;
+  slug: string;
+}
+
+export default function CoverImage({ title, url, slug }: CoverImageProps) {
   const image = (
     <ContentfulImage
       width={2000}

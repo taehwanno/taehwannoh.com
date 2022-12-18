@@ -7,12 +7,35 @@ import {
   TwitterShareButton,
 } from 'react-share';
 
-import Avatar from '../components/avatar';
-import DateComponent from '../components/date';
-import CoverImage from '../components/cover-image';
-import PostTitle from '../components/post-title';
+import Avatar from './avatar';
+import DateComponent from './date';
+import CoverImage from './cover-image';
+import PostTitle from './post-title';
 
-export default function PostHeader({ title, coverImage, date, author, url }) {
+interface PostHeaderProps {
+  title: string;
+  coverImage: {
+    url: string;
+  };
+  date: string;
+  author: {
+    name: string;
+    picture: {
+      url: string;
+    };
+  };
+  slug: string;
+  url: string;
+}
+
+export default function PostHeader({
+  title,
+  coverImage,
+  date,
+  author,
+  slug,
+  url,
+}: PostHeaderProps) {
   return (
     <>
       <PostTitle>{title}</PostTitle>
@@ -20,7 +43,7 @@ export default function PostHeader({ title, coverImage, date, author, url }) {
         {author && <Avatar name={author.name} picture={author.picture} />}
       </div>
       <div className="mb-8 md:mb-16 sm:mx-0">
-        <CoverImage title={title} url={coverImage.url} />
+        <CoverImage slug={slug} title={title} url={coverImage.url} />
       </div>
       <div className="max-w-2xl mx-auto">
         <div className="block md:hidden mb-6">

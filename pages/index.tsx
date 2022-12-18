@@ -5,10 +5,15 @@ import MoreStories from '../components/more-stories';
 import HeroPost from '../components/hero-post';
 import Intro from '../components/intro';
 import Layout from '../components/layout';
-import { getAllPostsForHome } from '../lib/api';
+import { getAllPostsForHome, Post } from '../lib/api';
 import { HOME_OG_IMAGE_URL } from '../lib/constants';
 
-export default function Index({ preview, allPosts }) {
+interface IndexPageProps {
+  preview: boolean;
+  allPosts: Post[];
+}
+
+export default function IndexPage({ preview, allPosts }: IndexPageProps) {
   const heroPost = allPosts[0];
   const morePosts = allPosts.slice(1);
   return (
