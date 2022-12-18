@@ -1,0 +1,31 @@
+name: main
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+          registry-url: https://npm.pkg.github.com/
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Format
+        run: yarn format:check
+
+      - name: Build
+        run: yarn build
