@@ -23,7 +23,7 @@
     "@types/gtag.js": "^0.0.12",
     "@types/node": "^16.18.10",
     "@types/react": "17.0.52",
-    "@types/react-dom": "17.0.11",
+    "@types/react-dom": "17.0.18",
     "autoprefixer": "10.2.6",
     "contentful-import": "^7.8.7",
     "postcss": "8.3.5",
@@ -33,6 +33,6 @@
   },
   "resolutions": {
     "@types/react": "17.0.52",
-    "@types/react-dom": "17.0.2"
+    "@types/react-dom": "17.0.18"
   }
 }
