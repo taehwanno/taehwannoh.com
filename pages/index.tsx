@@ -1,3 +1,4 @@
+import { GetStaticProps } from 'next';
 import Head from 'next/head';
 
 import Container from '../components/container';
@@ -41,9 +42,9 @@ export default function IndexPage({ preview, allPosts }: IndexPageProps) {
   );
 }
 
-export async function getStaticProps({ preview = false }) {
+export const getStaticProps: GetStaticProps = async ({ preview = false }) => {
   const allPosts = (await getAllPostsForHome(preview)) ?? [];
   return {
     props: { preview, allPosts },
   };
-}
+};
