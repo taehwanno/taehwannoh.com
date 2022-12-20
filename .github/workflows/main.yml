@@ -29,7 +29,7 @@ jobs:
             ${{ runner.os }}-nextjs-
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install --immutable
 
       - name: Format
         run: yarn format:check
