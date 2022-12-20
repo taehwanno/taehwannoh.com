@@ -28,6 +28,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-nextjs-
 
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
       - name: Format
         run: yarn format:check
 
