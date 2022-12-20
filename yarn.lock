@@ -126,9 +126,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-gnu@npm:13.0.7":
+"@next/swc-linux-x64-gnu@npm:13.0.7, @next/swc-linux-x64-gnu@npm:^13.0.7":
   version: 13.0.7
   resolution: "@next/swc-linux-x64-gnu@npm:13.0.7"
+  checksum: 57209554f571c4f47503343ced7cb17ad87e431a65281a71e11a25a5ffdd2663fc27f4eaf1522bf0133e6c122a7056f6e004663522264a4b30d6503e98b776dc
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
@@ -2559,6 +2560,7 @@ __metadata:
     "@contentful/rich-text-react-renderer": ^15.16.2
     "@contentful/rich-text-types": ^16.0.2
     "@next/env": ^13.0.7
+    "@next/swc-linux-x64-gnu": ^13.0.7
     "@types/gtag.js": ^0.0.12
     "@types/node": ^18.0.0
     "@types/react": 18.0.26
