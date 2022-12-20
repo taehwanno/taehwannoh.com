@@ -2557,6 +2557,7 @@ __metadata:
   dependencies:
     "@contentful/rich-text-plain-text-renderer": ^16.0.2
     "@contentful/rich-text-react-renderer": ^15.16.2
+    "@contentful/rich-text-types": ^16.0.2
     "@next/env": ^13.0.7
     "@types/gtag.js": ^0.0.12
     "@types/node": ^18.0.0
