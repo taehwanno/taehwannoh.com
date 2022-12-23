@@ -33,10 +33,6 @@ yarn-error.log*
 # vercel
 .vercel
 
-# dist
-public/feed.xml
-public/sitemap.xml
-
 # yarn (using zero-install)
 .yarn/*
 !.yarn/cache
