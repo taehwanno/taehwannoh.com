@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Taehwan Noh's blog</title>
+        <link>http://localhost:3000</link>
+        <description>제품을 만들며 일상에서 느낀 점을 이야기합니다.</description>
+        <lastBuildDate>Mon, 26 Dec 2022 14:03:50 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>Taehwan Noh's blog</title>
+            <url>https://user-images.githubusercontent.com/7760903/173589769-ec1a177c-eee7-4138-a043-9eaf771d14d1.png</url>
+            <link>http://localhost:3000</link>
+        </image>
+        <copyright>All rights reserved 2022, Taehwan Noh</copyright>
+        <item>
+            <title><![CDATA[조직 문화의 불평등한 세금 구조]]></title>
+            <link>http://localhost:3000/posts/unequal-tax-structure-in-organizational-culture</link>
+            <guid>http://localhost:3000/posts/unequal-tax-structure-in-organizational-culture</guid>
+            <pubDate>Mon, 21 Nov 2022 13:58:00 GMT</pubDate>
+            <description><![CDATA[어떤 문화나 체계든 녹이 슨다.]]></description>
+            <content:encoded><![CDATA[어떤 문화나 체계든 녹이 슨다. 좋은 문화를 원했고 실제로 누리게 됐지만 문화를 개선하는 데 참여해서 기여하지 않는다면 그 문화는 소멸한다. 더 큰 문제는 문화를 소비하는 사람들에게 균등한 세금이 부과되지 않는다는 점에 있다. 보통은 몇몇 사람에게 집중적으로 부과되며, 세금을 회피한 사람은 경제성의 논리에 따라 '회사는 생존이 먼저니까 수익에 직접 기여할 수 있는 많은 과업을 더 우선순위 높게 처리했다'고 스스로 위안으로 삼는다. 내 생각은 그게 아니다. 수익에 직접 기여할 수 있는 과업을 하면서 문화를 만들고 개선해나갈 수 있다. 내가 경험했던 탁월한 팀원은 모두 그랬다. 또한 스스로 우선순위를 높여서 처리하려고 했던 게 아니라 보통은 우선순위 조정을 제안해볼 행동 또는 생각조차 못 하고 타의에 의해 처리해달라고 요청받았기에 시간을 쓴 거라 그 위안은 유효하지 않다. 성과를 내는 건 당연한 거다. 그럼 일하는 체계를 포함한 문화를 만들어가는 것도 당연한 거다. 주도성과 역량이 부족한 자신 탓을 하지 않고 자기가 누리고 있는 문화 탓만 한다면 우리는 같이 일하기 힘들다.]]></content:encoded>
+            <author>taehwanno.dev@gmail.com (Taehwan Noh)</author>
+            <enclosure url="https://images.ctfassets.net/bk8ezyr4mo12/6hKYECshcCwCpno8xncB1I/781ac1c7a03f863d39682cb66243905c/kelly-sikkema-M98NRBuzbpc-unsplash.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[리더십의 출발점]]></title>
+            <link>http://localhost:3000/posts/starting-point-for-leadership</link>
+            <guid>http://localhost:3000/posts/starting-point-for-leadership</guid>
+            <pubDate>Sun, 21 Aug 2022 14:03:00 GMT</pubDate>
+            <description><![CDATA[리더십을 가지기 위해 필요한 것은 무엇일까]]></description>
+            <content:encoded><![CDATA[추상적인 개념을 이해하고 요약해서 자기 생각으로 정의하는 걸 중요하게 생각한다. 소속된 팀에서 주에 한 번씩 만나서 업무 관련된 책을 읽고 이야기하고 있다. 한 달에 한 권을 끝내야 하니 4주에 걸쳐서 읽는데 저번 달은 임파워드였고 이번 달은 애자일 조직은 이렇게 일합니다 라는 책이다. 이번 달 책은 내가 읽고 싶어서 팀에 의견을 냈는데 그 이유가 애자일을 하나의 문장으로 요약해서 설명할 수 없었기에 아직 이해하지 못했다고 판단했기 때문이다. 다 읽지는 못했는데 통제하기 힘든 영역을 일정 수준 관리할 수 있는 영역으로 변화시키고 일하는 단계마다 피드백 루프를 빠르게 가져가며 얻은 인사이트를 다음 행동에 반영하는 반복적인 과정 정도로 이해하고 있다. 다른 사람을 따라오게 만드는 리더십은 거창한 게 아니라 시작과 끝을 볼 수 있고 남다른 인사이트에서 시작한다고 믿고 있다. 그 출발점은 추상적인 걸 구체적으로 표현하는 능력이다.]]></content:encoded>
+            <author>taehwanno.dev@gmail.com (Taehwan Noh)</author>
+            <enclosure url="https://images.ctfassets.net/bk8ezyr4mo12/ColPKqlCil8FXTdsZmZlV/bee3cc0574bcb442ac044aa819c20e65/hello-i-m-nik-MAgPyHRO0AA-unsplash.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[전략적 사고를 위한 넛지]]></title>
+            <link>http://localhost:3000/posts/nudges-for-strategic-thinking</link>
+            <guid>http://localhost:3000/posts/nudges-for-strategic-thinking</guid>
+            <pubDate>Sun, 14 Aug 2022 15:14:00 GMT</pubDate>
+            <description><![CDATA[전략적으로 사고하기 위해 일할 때 특정 상황마다 나 자신에게 하는 첫 질문이 있다.]]></description>
+            <content:encoded><![CDATA[전략적으로 사고하기 위해 일할 때 특정 상황마다 나 자신에게 하는 첫 질문이 있다. 우선순위를 세울 때는 '목표를 이루기 위한 마지막 단계의 일은 무엇이고 그 일을 끝내기 위한 이전 단계는 무엇이며 그 일들의 임팩트는 어떻게 되는가'이고 회의에서 의견이 충돌된다면 '표현하지 않았지만 서로 가정하는 것이 달라서 정렬이 필요한 것은 무엇일까'이며 계획할 때는 '무의식적으로 문제없다고 가정하지만 고려해보지 못한 것이 무엇일까'라는 질문이다. 항상 수많은 제약 속에서 험난한 과정을 거치다 보면 시야가 좁아질 때가 많은데 꼭 거쳐야 하는 과정이라면 방어 태세보다는 공격 태세로 마음가짐을 바꾸기 위해 위 질문을 상황마다 곧바로 꺼내서 사용한다. 올바른 질문 만이 문제를 분석하고 해결하도록 도와주는 유일한 도구다.]]></content:encoded>
+            <author>taehwanno.dev@gmail.com (Taehwan Noh)</author>
+            <enclosure url="https://images.ctfassets.net/bk8ezyr4mo12/6CNsM127tJe6ZYjU7OIpPA/afc64dc4afab041212f8c79fa37084c6/gr-stocks-Iq9SaJezkOE-unsplash.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[성장할 수 밖에 없는 마인드셋]]></title>
+            <link>http://localhost:3000/posts/growing-mindset</link>
+            <guid>http://localhost:3000/posts/growing-mindset</guid>
+            <pubDate>Sun, 07 Aug 2022 15:14:00 GMT</pubDate>
+            <description><![CDATA[사람은 스스로 감수하려는 책임만큼 성장한다.]]></description>
+            <content:encoded><![CDATA[사람은 스스로 감수하려는 책임만큼 성장한다. 이번 주는 회의로 물든 한 주였다. 팀에서 최근에 합류한 주니어 엔지니어 두 명을 포함해 총 세 명의 엔지니어를 이끄는 테크리더로서 제품의 Acqusition 퍼널을 늘릴 수 있다고 판단되는 피처를 어떤 방향으로 개발할지 고민하고 있다. 특정 하나의 케이스에 매몰되는 솔루션이 아니도록 정렬하고 법률적, 보안적 이슈가 없으면서 사용성은 헤치지 않는 균형점을 찾는 게 계약 서비스 특성상 참 도전적이다. 여기에 코드 소유권이 크게 없는 도메인을 건드려야 하다 보니 잘 모르는 영역에 주니어분들을 가이드 해줘야 하는 상황이다. 보통 잘 아는 영역을 위임하고 정기적으로 피드백을 통한 기대치를 조율해왔는데, 잘 모르는 영역은 같이 참여하는 구성원의 역량에 따라 업무 패턴이 달라지는 경우가 많기에 어떤 성향인지 살펴보고 대응하는 편이다. 주니어분들을 살펴봤을 때 기술적 역량은 충분했고 업무적으로 좋은 습관이 있었고 적극적으로 문제를 숨기지 않고 드러내면서 대화하고 성장 욕구가 엄청났기에 마이크로 매니징으로 세세하게 관리하기보다 솔루션의 목표를 전달하고 해결하는 과정에서 발견된 제약을 지속적으로 공유하면서 각 부분 영역을 책임지도록 위임해서 테크리더인 내가 팔로업하는 식으로 일하고 있고 아직은 성공적이다.]]></content:encoded>
+            <author>taehwanno.dev@gmail.com (Taehwan Noh)</author>
+            <enclosure url="https://images.ctfassets.net/bk8ezyr4mo12/256EhmCieXPpJDGXJqxyE0/717bdd4a8ff41bf2740bc03294bfa33f/name_-gravity-_AdUs32i0jc-unsplash.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[상장된 회사의 의결권 행사]]></title>
+            <link>http://localhost:3000/posts/voting-rights-for-listed-companies</link>
+            <guid>http://localhost:3000/posts/voting-rights-for-listed-companies</guid>
+            <pubDate>Sun, 31 Jul 2022 14:52:00 GMT</pubDate>
+            <description><![CDATA[상장된 회사의 의결권 행사 경험을 뒤돌아보자]]></description>
+            <content:encoded><![CDATA[상장된 회사의 의결권 행사 경험을 뒤돌아보자. 테슬라 연례 주주총회를 위해 의결권을 행사했는데 공지 문서를 읽어봤을 때 이사회에서 권장하는 방향은 1~5번 안건은 찬성, 6~13번 안건은 반대였다. 원문을 읽어봤을 때 3대1 주식분할을 제안하는 4번 안건 외에는 그러려니 해서 이사회에 힘을 실어주려고 부분적으로 찬성, 반대하려고 했는데 사용하는 증권사 2개에서 모두 문제가 있었다. 공통적으로 모두 이메일로 받아서 수기로 집계한다는 점과 A 증권사는 모두 찬성, 모두 반대만 가능했고 B 증권사는 별도의 의사를 전달하지 않으면 모두 찬성으로 처리된다는 거다. A 증권사에 문의했을 때 국내 모든 증권사에서 의결권 행사 처리가 전산화되지 않아 모든 안건에 대해 일일이 카운팅하기 어렵다는 애로사항이 있어서 선택하게 된 방향이라 안내받았다. A 증권사는 의사 표시하지 않으면 기권으로 처리돼서 이를 선택했다. B 증권사는 안건별로 찬성, 반대할 수 있었지만 의사 표시하지 않으면 모두 찬성인데 이게 어떻게 가능한가 보니 미국증권거래소 설명에 따르면 주주가 의결하지 않을 경우 브로커가 대신해서 의결권을 행사하는 broker vote라는 개념이 있고 routine proposal에 한해서 행할 수 있다. 그럼 모두 찬성으로 처리된다는 게 아니라 어떤 안건에 한해서 찬성으로 처리되는지 구체적으로 안내해줘야 하는 게 맞지 않나? 다른 회사 주주였던 적도 있었지만, 포트폴리오 구성을 엄청 간략화하면서 상장회사의 의결권 행사 경험은 처음 해봤는데 어이없는 지점이 한, 두 군데가 아니었다. 기본값은 신중히 선택돼야 하며 기본값으로 인해 영향받는 범위를 구체적으로 한정해서 안내해주는 게 좋다. 아무튼 내가 회사의 오너라면 어떤 선택을 내릴지 여러 자료를 보면서 이해해보려는 과정 자체가 흥미롭고 가치 있었다.]]></content:encoded>
+            <author>taehwanno.dev@gmail.com (Taehwan Noh)</author>
+            <enclosure url="https://images.ctfassets.net/bk8ezyr4mo12/4T11Yyn2hxJnEMCGMwnPW3/7b9e6c5a655af85293a0cae4c8eddc3a/vlad-tchompalov-jwyO3NhPZKQ-unsplash.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[소중한 걸 낭비하는 삶]]></title>
+            <link>http://localhost:3000/posts/life-wasting-precious-things</link>
+            <guid>http://localhost:3000/posts/life-wasting-precious-things</guid>
+            <pubDate>Sun, 17 Jul 2022 14:42:00 GMT</pubDate>
+            <description><![CDATA[예전에 사주를 봤을 때 "남들보다 5~10년 빠르시네요"라는 말을 들었다.]]></description>
+            <content:encoded><![CDATA[예전에 사주를 봤을 때 "남들보다 5~10년 빠르시네요"라 말씀하셨는데 알고 보니 시간을 낭비하지 않고 착실하게 써서 성취가 쌓인다는 말이었다. 혼자 있을 때 어제보다 조금이라도 더 나아지기 위해 여러 분야의 정보를 읽고 쓰고 듣는다. 좀 더 정확히 표현하면 가만히 있지를 못한다. 습관이 됐고 즐기고 동기부여가 필요 없이 그냥 한다. 스트레스를 잘 받지 않는 성향까지 한몫해서 연차가 쌓이는 경우가 다반사였다. 시간을 자유롭게 쓸 수 있는 선택권을 얻기 위해 열심히 사는데 잘 사는 건 아니라 느꼈다. 이 상황에서 최근에 들었던 "소중한 걸 낭비하는 삶이 행복한 삶"이라는 말이 계속 맴돌았다. 내가 한없이 시간을 낭비할 때는 소중한 사람과 있을 때인데 신기하게 가만히 있어도 아무것도 하지 않아도 편안하다. 이번 휴가 때 부산 내려가서 가족에게만 집중했다. 호텔에서 시간을 같이 보내고, 어릴 적에 처음 아빠랑 단둘이 갔던 영화관에 다시 같이 갔으며, 엄마랑 예전에 살았던 집을 지나 걸어갔고 새벽까지 이야기했으며, 동생과 광안리 해변가부터 수영강까지 라이딩했다. 낭비하려 했던 시간이 오히려 낭비되지 않은 채 남아있다. 매 순간이 기억에 남는다.]]></content:encoded>
+            <author>taehwanno.dev@gmail.com (Taehwan Noh)</author>
+            <enclosure url="https://images.ctfassets.net/bk8ezyr4mo12/3fE4oEkwGV8kCZpQbKDTiD/e057ba0a6256d3a9d9050b056e5a6db5/aron-visuals-BXOXnQ26B7o-unsplash.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[콘텐츠가 스스로 도달하는 시스템 만들기]]></title>
+            <link>http://localhost:3000/posts/pushed-content-system</link>
+            <guid>http://localhost:3000/posts/pushed-content-system</guid>
+            <pubDate>Sat, 18 Jun 2022 15:00:00 GMT</pubDate>
+            <description><![CDATA[찾는 게 아니라 찾아오게 해야 한다.]]></description>
+            <content:encoded><![CDATA[찾는 게 아니라 찾아오게 해야 한다. 회사 내에 읽으면 좋을 자료를 공유하는 여러 채널이 있는데 거의 모든 채널에 자료를 올리니 동료가 자료를 잘 찾는 비법이 있냐고 물어보길래 해준 대답이다. 소셜 미디어 발달로 콘텐츠 생산자의 생각을 바로 소비할 수 있기에 남다른 생각을 하는 사람을 찾으면 팔로잉해서 콘텐츠를 직접 찾지 않더라도 나에게 도달할 수 있는 환경을 만들고 점심 직후나 잠들기 전처럼 특정 시간에 주기적으로 소비한다. 책 추천이나 나중에 다시 곱씹어야 할 부분은 스크린샷으로 찍어두고 앨범에서 하나씩 지우면서 정리한다. 소셜 미디어마다 특성이 달라서 목적을 다르게 분리해서 팔로잉하는데 유튜브는 라이프스타일, 페이스북과 트위터는 업계 정보와 자기 계발, 인스타그램은 운동 동기부여 목적으로 본다. 내 생각을 바꾸거나 행동하게 한 콘텐츠는 좋아요처럼 더 많은 사람에게 도달할 수 있도록 보상해주고, 꾸준히 활동했으면 하는 콘텐츠 생산자가 있으면 유료 구독까지 해서 지원하기도 한다. 핵심은 좋은 콘텐츠가 도달할 수 있는 환경을 만들고 남다른 양을 소비하고 그 환경을 유지할 수 있게 보상해주는 것에 있다.]]></content:encoded>
+            <author>taehwanno.dev@gmail.com (Taehwan Noh)</author>
+            <enclosure url="https://images.ctfassets.net/bk8ezyr4mo12/7sjZI27Qux6ApQeQjg1b1b/728f197963131d5492e05ba080e00be9/kelly-sikkema-377gw1wN0Ic-unsplash.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[성공하고 있다는 걸 측정하는 방법]]></title>
+            <link>http://localhost:3000/posts/how-to-measure-success</link>
+            <guid>http://localhost:3000/posts/how-to-measure-success</guid>
+            <pubDate>Sun, 12 Jun 2022 15:00:00 GMT</pubDate>
+            <description><![CDATA[삶에서 성공하고 있다는 걸 무엇으로 측정할 수 있을까]]></description>
+            <content:encoded><![CDATA[요즘 내 모든 관심사는 성공하고 있다는 걸 어떻게 측정할지에 쏠려있다. 개발자로 근무하면서 많은 코드를 작성하는 데 집중하는 게 아니라 고객의 문제를 해결하고 비즈니스에 영향력을 줘야 한다는 데 동의한다. 작성한 많은 코드 라인 숫자와 기능 숫자를 단순하게 성과로 볼 수 없다는 말이다. 그럼 실제로 내가 한 일이 문제를 해결하고 있는지 알려면 기업의 생존을 위해 매출에 직접 연결되는 결제를 기준으로 측정해야 하고 보통은 리텐션이 핵심 지표가 된다. 그러면 또 다시 내가 한 일이 리텐션에 좋은 영향을 주고 있다고 어떻게 측정할 수 있을까? 영업처럼 매출과 직결되는 직무가 아니라면 까다로운 문제다. 더구나 리텐션에 바로 피드백이 오지 않는다면 어떤 기준으로 이 일을 계속할지 말지 어떻게 결정해야 할지도 모호하다. 지속 가능한 기업이 되기 위해 장기적인 성공을 예측할 수 있고 조직의 모든 구성원이 직관적으로 이해해서 정렬될 수 있는 하나의 지표를 만들고 각 조직 구성에 맞게 하위 지표를 만드는 식으로 풀어나가는 듯 보인다. 그럼 인생에 대입해서 삶에서 성공하고 있다는 걸 무엇으로 측정할 수 있을까? 이성과의 데이트 수, 연애 횟수, 월별 저축액, 순자산 증가량, 아파트 한 채, 특정 기업의 보유 주식 수, 잠자는 시간, 음악 듣는 시간, 멍때리는 시간, 뮤지컬 관람 시간, 부모님과의 여행 일수 등등 사람마다 원하는 것에 따라 정말 많은 걸로 세울 수 있다. 다채로운 어른이 되고 싶어서 여러 분야별로 나눠서 세운 기준이 있다. 인생에서 성취하고 싶은 걸 한 문장으로 표현할 수 있는데, 위에서 언급한 단 하나의 핵심 지표를 만들기 어렵듯 그 과정을 어떤 소명으로 이룰 것인지 한 문장으로 표현하는 게 참 어렵다. 이를 정리하는 게 내 다음 숙제이지 않나 싶다.]]></content:encoded>
+            <author>taehwanno.dev@gmail.com (Taehwan Noh)</author>
+            <enclosure url="https://images.ctfassets.net/bk8ezyr4mo12/3j6vbtWqYgbdqtC7EfZwNF/58c6f696c81c5e69716155119f48f4dc/joshua-earle-9idqIGrLuTE-unsplash.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[지적받을 기회]]></title>
+            <link>http://localhost:3000/posts/opportunity-to-be-pointed-out</link>
+            <guid>http://localhost:3000/posts/opportunity-to-be-pointed-out</guid>
+            <pubDate>Sat, 21 May 2022 15:04:00 GMT</pubDate>
+            <description><![CDATA[지적받는 것에 감사해야 한다. 경력이 쌓일수록 이럴 기회가 사라진다.]]></description>
+            <content:encoded><![CDATA[연차 대비해서 리더 직급을 회사 상황상 빨리 맡게 된 지 어느 정도 됐을 때 듣게 된 배우 배종옥의 말이 인상 깊었다. "후배들 앞에서 연기 지적받으실 때 두렵지는 않으신지?"라는 질문에 "오히려 연기를 오래 하다 보니까 누가 나에게 말을 안 해줘서 내가 잘 가고 있는지 모를 때가 더 많아요. 주변 사람의 느낌으로만 잘못하고 있는지를 판단해야 하니까 저는 오히려 대놓고 얘기해주니까 좋아요. 말해주면 그렇게 딱 고치면 되는데 말하지 않고 느낌으로만 고치길 원할 때는 뭐가 어떻게 잘못된 지 잘 모르니 그게 더 답답해요."라는 대답이었다. 지적받는 것에 감사해야 한다. 경력이 쌓일수록 이럴 기회가 사라진다. 연차가 얼마 되지도 않는데 이걸 경험하고 있다. 오래 버텼다는 이유만으로 말에 무게가 실리는데 많이 알고 경험이 많다고 항상 좋은 선택을 하는 건 아니다. 지적받으면 고칠 기회를 얻은 것이고, 내가 맞다면 상대방과 이야기하면서 서로 생각을 발전시킬 수 있다. 지적받았다고 감정이 상해 화를 내거나 고소하는 건 자기 자신에게 안타까운 선택이다.]]></content:encoded>
+            <author>taehwanno.dev@gmail.com (Taehwan Noh)</author>
+            <enclosure url="https://images.ctfassets.net/bk8ezyr4mo12/6bpSbSgT6hjh6H7XaiV8nr/c8f1acb76825c64249a2da60c7062279/andre-hunter-5otlbgWJlLs-unsplash.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[회사와 같이 맞이한 일곱 번째 생일]]></title>
+            <link>http://localhost:3000/posts/7th-birthday-celebrated-with-the-company</link>
+            <guid>http://localhost:3000/posts/7th-birthday-celebrated-with-the-company</guid>
+            <pubDate>Sun, 15 May 2022 15:35:00 GMT</pubDate>
+            <description><![CDATA[벌써 회사와 같이 맞이한 일곱 번째 생일이 있는 한 주였다.]]></description>
+            <content:encoded><![CDATA[벌써 회사와 같이 맞이한 일곱 번째 생일이 있는 한 주였다. 흔히들 "운이 좋았다"라고 표현하는 인생 선배들의 말이 이해되지 않던 시절이 지나고 정말 운이 좋았다고 표현할 수밖에 없는 일상이 내 시간에 가득하다. 성격이 밝아졌고 예민했던 성향이 무던해졌고 솔직함과 무례함을 구분하며 외향성으로 변했으며 실패를 최소화하는 게 아니라 어떻게 되게 만들지 고민한다. 참 신기하다. 돈을 많이 벌거나 생활 수준이 드라마틱하게 변화한 건 아니지만, 과거로 돌아갈 수 있다고 해도 가기 싫고 동기부여를 하지 않아도 미래가 기대된다는 점이 매일 아침에 일어나게 만든다. 이런 모습이 행복하다는 증거가 아닐까 싶다. 앞으로도 꾸준한 태도는 변하지 않고 스스로가 만족할 수 있는 모습으로 변화해나가는 어른이 됐으면 한다.]]></content:encoded>
+            <author>taehwanno.dev@gmail.com (Taehwan Noh)</author>
+            <enclosure url="https://images.ctfassets.net/bk8ezyr4mo12/1mMDC7MnIikrQLxrz1mxGp/6fe95b31c802619cd65112c069fc3ea2/annie-spratt-M20ylqCzSZw-unsplash.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[연봉 협상의 기형적 구조]]></title>
+            <link>http://localhost:3000/posts/abnormal-structure-of-salary-negotiations</link>
+            <guid>http://localhost:3000/posts/abnormal-structure-of-salary-negotiations</guid>
+            <pubDate>Fri, 15 Apr 2022 10:15:00 GMT</pubDate>
+            <description><![CDATA[회사가 연봉 테이블을 공개하지 않으면서 구직자에게 전 직장 연봉을 공개하라고 하는 건 기형적이다.]]></description>
+            <content:encoded><![CDATA[회사가 연봉 테이블을 공개하지 않으면서 구직자에게 전 직장 연봉을 공개하라고 하는 건 기형적이다. 가치 평가와 가격 결정이 어렵다는 점은 인정한다. 근데 지식 노동자일수록, 업무의 결과를 매출에 직접 연결하기 어려울수록 회사가 개인의 성과를 어떻게 측정할지 몰라서 오는 문제를 개인에게 전가하는 느낌이 강하다. 가격 결정의 불확실성을 일정 부분 해소할 만큼의 시스템이 만들어지기 전까지 비싸게 샀다고 느끼고 싶지 않아서 전직장 연봉 기준으로 제한선을 둔다는 논리라면 매년 연봉협상에서 화폐 가치의 하락만큼 보전해줄 건가? 서로의 기대치를 먼저 조율하고 회사 상황상 가능한 선에서 시장 가치를 고려해 구직자가 입사 후 연봉에 신경 쓰지 않고 업무에 몰입할 수 있도록 대화하는 게 기본이 아닌가. 회사가 구직자를 채용하지 않는 이유는 다른 대안이 있어서다. 마찬가지로 구직자가 입사하지 않는 이유도 다른 대안이 있어서다. 구직자는 능력적 탁월함을 추구하는 게 기본 전략이 되듯이 회사는 업무를 수치화할 수 있는 시스템을 만들어 가야 한다.]]></content:encoded>
+            <author>taehwanno.dev@gmail.com (Taehwan Noh)</author>
+            <enclosure url="https://images.ctfassets.net/bk8ezyr4mo12/296DzuYwKNF97TdZDzPlm1/12090c67584a1cfaf7c5f33135942da7/jp-valery-lVFoIi3SJq8-unsplash.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[피드백에 차별화를 만드는 자세]]></title>
+            <link>http://localhost:3000/posts/attitude-towards-feedback</link>
+            <guid>http://localhost:3000/posts/attitude-towards-feedback</guid>
+            <pubDate>Wed, 13 Oct 2021 16:51:00 GMT</pubDate>
+            <description><![CDATA[피드백은 단방향이 아니다.]]></description>
+            <content:encoded><![CDATA[동료가 피드백을 언제, 어떻게 받았으면 좋겠냐고 물어볼 때 피드백을 어떻게 줄지 고민하는 시간에 그냥 자주 빠르게 달라고 했다. 구체적이고 직설적일수록 좋다. 누구나 개선할 점은 있다. 여기서 차별화 할 수 있는 점은 압도적으로 빠르게 개선하는 것에 있다. 피드백에 열린 자세일수록 성장할 가능성이 높을 수밖에 없다. 평가받기 때문에 방어적인 자세가 될 수 있는데 자연스러운 방어기제다. 이를 의식적으로 생각하고 자세를 고쳐앉고 대화하는 게 좋다. 피드백은 단방향이 아니기에 해주길 기다리지 말고 먼저 물어보고 받을 수 있다는 걸 잊지 말자.]]></content:encoded>
+            <author>taehwanno.dev@gmail.com (Taehwan Noh)</author>
+            <enclosure url="https://images.ctfassets.net/bk8ezyr4mo12/dHT1fJqU8J6a09urC5au7/20be04a0da9a8c5668209a06a8cb5b1b/photo-1553877522-43269d4ea984" length="0" type="image//bk8ezyr4mo12/dHT1fJqU8J6a09urC5au7/20be04a0da9a8c5668209a06a8cb5b1b/photo-1553877522-43269d4ea984"/>
+        </item>
+        <item>
+            <title><![CDATA[돈을 투자하지 않더라도 생길 수 있는 가장 큰 손실]]></title>
+            <link>http://localhost:3000/posts/trust-is-an-asset</link>
+            <guid>http://localhost:3000/posts/trust-is-an-asset</guid>
+            <pubDate>Mon, 11 Oct 2021 16:14:00 GMT</pubDate>
+            <description><![CDATA[이미 적응한 환경은 중요한 것을 쉽게 잊게 한다. 하지만 꼭 신경 써야 하는 한 가지가 있다.]]></description>
+            <content:encoded><![CDATA[신뢰는 자산이다. 시기상 미디어나 지인과의 대화에서 노동 소득의 중요성을 깎아내리는 표현을 자주 보는데 전문가로서 자신이 받는 연봉에 회사가 기대하는 만큼 제한된 일정 내에 수준 높은 결과를 내어 성과로 연결하는 건 기본이다. 손실은 돈으로 직접 투자하지 않더라도 생길 수 있다. 일을 제대로 해내지 못해서 동료에게 잃게 되는 신뢰는 정말 비싸다. 잃어버린 신뢰는 만족스럽지 않은 연봉 인상률로 연결되는데 이때 이직하면 예전 동료가 가진 신뢰를 높일 방법이 없다. 오히려 시간이 갈수록 연차가 쌓여 동료가 더 많은 경험을 가질수록 이미 깎여서 멈춰있는 신뢰 가치는 하락한다. 당연하게도 해야 할 일을 일정 내에 끝내는 건 중요하다.]]></content:encoded>
+            <author>taehwanno.dev@gmail.com (Taehwan Noh)</author>
+            <enclosure url="https://images.ctfassets.net/bk8ezyr4mo12/6SwsKBQWZaSOsWen0cisWn/bbd75fed5e033ab441d0e76a99992b17/photo-1509475826633-fed577a2c71b" length="0" type="image//bk8ezyr4mo12/6SwsKBQWZaSOsWen0cisWn/bbd75fed5e033ab441d0e76a99992b17/photo-1509475826633-fed577a2c71b"/>
+        </item>
+        <item>
+            <title><![CDATA[커리어 레버리지]]></title>
+            <link>http://localhost:3000/posts/career-leverage</link>
+            <guid>http://localhost:3000/posts/career-leverage</guid>
+            <pubDate>Tue, 13 Jul 2021 09:02:00 GMT</pubDate>
+            <description><![CDATA[팀 관리할 때 내가 팀원에게 얼마나 큰 커리어 레버리지인지 확인하는 건 중요하다.]]></description>
+            <content:encoded><![CDATA[팀 관리할 때 내가 팀원에게 얼마나 큰 커리어 레버리지인지 확인하는 건 중요하다. 일을 위임하고 더 중요한 일을 하기 위해 팀원을 채용했다면 이탈되지 않게 관리해야 하는데 피부에 와닿는 보상은 역량 향상과 연봉 상승이다. 이때 역량 향상은 팀원이 커리어에서 원하는 직업적 성취에 필요한 역량과 현재 역량 사이의 간극을 적절한 시기와 횟수의 피드백을 통해 채워주고 방향성을 잡아주는 데 초점을 둔다. 어려운 점은 어떤 커리어를 밟아나가고 싶은지 목표가 없거나, 너무 추상적인 목표라서 구체적이면서 실행 가능한 단기 계획을 세우는 걸 자주 실패하거나, 간극을 스스로 평가할 정도로 메타인지가 높지 않은 경우가 많았다. 이럴 때 가장 이상적이라 생각하는 건 회사 생활 잘했더니 직업적 성취와 보상이 따라오는 그림인데 이를 회사 목표와 정렬해서 도와주기 위해 1대1 미팅에서 커리어 목표는 무엇인지, 1년 후에 어떤 성과를 원하는지 물어보고 분기마다 회고할 수 있게 질문하고 지금 가지고 있는 역량을 평가해서 현재 상태를 전달하고 내가 해줄 수 있는걸 명확히 전달하려 노력하고 있다. 팀원이 남아있을 이유를 계속 가지게 하려면 내가 할 수 있는 선에서 줄 수 있는 가치를 키우려 노력하는 게 맞다.]]></content:encoded>
+            <author>taehwanno.dev@gmail.com (Taehwan Noh)</author>
+            <enclosure url="https://images.ctfassets.net/bk8ezyr4mo12/4I2wAnkh3AOSnGZxPN5ljB/3e1341538bf617a68f4745bb6eb177bc/sean-pollock-PhYq704ffdA-unsplash.jpg" length="0" type="image/jpg"/>
+        </item>
+    </channel>
+</rss>

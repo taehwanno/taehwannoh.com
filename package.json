@@ -2,8 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "build": "next build",
-    "postbuild": "next-sitemap",
+    "build": "next build && next-sitemap",
     "start": "next start",
     "setup": "node ./contentful/setup.js $CONTENTFUL_SPACE_ID $CONTENTFUL_MANAGEMENT_TOKEN",
     "format": "prettier --write \"{components,contentful,lib,pages,styles,types}/**/*.js\"",
