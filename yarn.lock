@@ -33,10 +33,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@corex/deepmerge@npm:^4.0.14":
-  version: 4.0.22
-  resolution: "@corex/deepmerge@npm:4.0.22"
-  checksum: 095772500fa7e186e36af4788ca504e66a2ae85a94f374bfe41621f6ed462e175651d1242fb3b80d91f578e72cbd26527870cd346774aeccae1a901fffcb5bb6
+"@corex/deepmerge@npm:^4.0.29":
+  version: 4.0.29
+  resolution: "@corex/deepmerge@npm:4.0.29"
+  checksum: 78626fd29cb9cbd2953ce5a06f963132c9b4837bb76397982d255131533b61c3ef447f0d295f300aa6b2c3ead182a6fe2e4763181e06a2124df28c08205de1d2
   languageName: node
   linkType: hard
 
@@ -1886,6 +1886,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"minimist@npm:^1.2.7":
+  version: 1.2.7
+  resolution: "minimist@npm:1.2.7"
+  checksum: 7346574a1038ca23c32e02252f603801f09384dd1d78b69a943a4e8c2c28730b80e96193882d3d3b22a063445f460e48316b29b8a25addca2d7e5e8f75478bec
+  languageName: node
+  linkType: hard
+
 "minipass-collect@npm:^1.0.2":
   version: 1.0.2
   resolution: "minipass-collect@npm:1.0.2"
@@ -2011,19 +2018,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next-sitemap@npm:^3.0.5":
-  version: 3.0.5
-  resolution: "next-sitemap@npm:3.0.5"
+"next-sitemap@npm:^3.1.43":
+  version: 3.1.43
+  resolution: "next-sitemap@npm:3.1.43"
   dependencies:
-    "@corex/deepmerge": ^4.0.14
-    minimist: ^1.2.6
+    "@corex/deepmerge": ^4.0.29
+    minimist: ^1.2.7
   peerDependencies:
     "@next/env": "*"
     next: "*"
   bin:
     next-sitemap: bin/next-sitemap.mjs
     next-sitemap-cjs: bin/next-sitemap.cjs
-  checksum: 6c6a74917d8fe43e1e7043fdd993d6e4069c0e84c2548c6689e9922314fec704c9e60246fcc462d298037278bc03542d8e0181ee2e0731dd9ebc77e7953042e7
+  checksum: 70630056b77bf570053614919ab8a8313f439679d7a8f27976ed51be913c121ff157114112f7e99d0617f82c5e32b88e7eeb505bab0b46b704bd4afb2b0195ef
   languageName: node
   linkType: hard
 
@@ -2587,7 +2594,7 @@ __metadata:
     date-fns: 2.29.3
     feed: ^4.2.2
     next: 13.1.1
-    next-sitemap: ^3.0.5
+    next-sitemap: ^3.1.43
     postcss: 8.4.20
     prettier: ^2.4.1
     react: ^18.2.0
