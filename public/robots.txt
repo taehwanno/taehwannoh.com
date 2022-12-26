@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://taehwannoh.com
-
-# Sitemaps
-Sitemap: https://taehwannoh.com/sitemap.xml
