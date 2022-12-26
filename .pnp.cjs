@@ -32,6 +32,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@contentful/rich-text-react-renderer", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:15.16.2"],\
             ["@contentful/rich-text-types", "npm:16.0.2"],\
             ["@next/env", "npm:13.0.7"],\
+            ["@next/swc-darwin-arm64", "npm:13.1.1"],\
             ["@next/swc-linux-x64-gnu", "npm:13.0.7"],\
             ["@types/gtag.js", "npm:0.0.12"],\
             ["@types/node", "npm:18.11.17"],\
@@ -3105,6 +3106,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@contentful/rich-text-react-renderer", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:15.16.2"],\
             ["@contentful/rich-text-types", "npm:16.0.2"],\
             ["@next/env", "npm:13.0.7"],\
+            ["@next/swc-darwin-arm64", "npm:13.1.1"],\
             ["@next/swc-linux-x64-gnu", "npm:13.0.7"],\
             ["@types/gtag.js", "npm:0.0.12"],\
             ["@types/node", "npm:18.11.17"],\

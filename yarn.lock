@@ -91,9 +91,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-arm64@npm:13.1.1":
+"@next/swc-darwin-arm64@npm:13.1.1, @next/swc-darwin-arm64@npm:^13.1.1":
   version: 13.1.1
   resolution: "@next/swc-darwin-arm64@npm:13.1.1"
+  checksum: bf1a9e46e90ade35dd0db81e13626044eef9f860aec3ca01fb9798eec71c422a9c2bc8a907c471d54ce89df1a5770b8cee8ec29ece8c4ed9a29509c0b0e4c977
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
@@ -2574,6 +2575,7 @@ __metadata:
     "@contentful/rich-text-react-renderer": ^15.16.2
     "@contentful/rich-text-types": ^16.0.2
     "@next/env": ^13.0.7
+    "@next/swc-darwin-arm64": ^13.1.1
     "@next/swc-linux-x64-gnu": ^13.0.7
     "@types/gtag.js": ^0.0.12
     "@types/node": ^18.0.0
