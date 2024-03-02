@@ -15,34 +15,27 @@ __metadata:
   linkType: hard
 
 "@contentful/rich-text-plain-text-renderer@npm:^16.0.2":
-  version: 16.0.2
-  resolution: "@contentful/rich-text-plain-text-renderer@npm:16.0.2"
+  version: 16.0.11
+  resolution: "@contentful/rich-text-plain-text-renderer@npm:16.0.11"
   dependencies:
-    "@contentful/rich-text-types": ^16.0.2
-  checksum: db0b7417ac99b00d1de78b7c406d3a720a1174a43fd9de044e1b249ee2f84bc9ef1feefef677d671d41abaecdb4f736bffa2728b0bd316453b4e901b9a5c98a0
+    "@contentful/rich-text-types": ^16.3.4
+  checksum: 719b2e390443be4d65e0f0c86903e3800efdc5d5ae083114338a8b5e407e81a32bc332fa6d080b31709ed4b25354a878484d50843fd252d49f665fc32dd766c2
   languageName: node
   linkType: hard
 
 "@contentful/rich-text-react-renderer@npm:^15.16.2":
-  version: 15.16.2
-  resolution: "@contentful/rich-text-react-renderer@npm:15.16.2"
+  version: 15.19.4
+  resolution: "@contentful/rich-text-react-renderer@npm:15.19.4"
   dependencies:
-    "@contentful/rich-text-types": ^16.0.2
+    "@contentful/rich-text-types": ^16.3.4
   peerDependencies:
     react: ^16.8.6 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.6 || ^17.0.0 || ^18.0.0
-  checksum: 8c7582d83c8b1fbd0553f3cd79a92066699870a5ebbbe546f9622f660e702ef9f52aa138648478a687fa189394b81216a427a6afb8efc3b17cdd017b55a51829
+  checksum: eaf4b4841859413c1c00121d942a9f66a0c85a426ed2ab48156e00370357d40ac934d7c7bd9068ebe9fb6b692ef10ebc0cf880409965ce15f4e491a67224e96f
   languageName: node
   linkType: hard
 
-"@contentful/rich-text-types@npm:^16.0.2":
-  version: 16.0.2
-  resolution: "@contentful/rich-text-types@npm:16.0.2"
-  checksum: efa9a3e1bcd196f64c61f2ed820188d01aacbca05f5a64efa9d88390b165d9a51f1382bc7bc1305fe0e54e958556ec38f99b7164c073a6af3749dde9b0c84b42
-  languageName: node
-  linkType: hard
-
-"@contentful/rich-text-types@npm:^16.3.0":
+"@contentful/rich-text-types@npm:^16.0.2, @contentful/rich-text-types@npm:^16.3.0, @contentful/rich-text-types@npm:^16.3.4":
   version: 16.3.4
   resolution: "@contentful/rich-text-types@npm:16.3.4"
   checksum: 16bd16d3089eefe7953cf3fa72b93765f3b769820ea25df291d5eedb0bf2ba50ba2443bfa39d65fedb351ee67e0acc3280e0622f3d8407ec5c496ef3591ca1dc
