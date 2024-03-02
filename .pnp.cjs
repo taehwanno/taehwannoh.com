@@ -44,7 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["date-fns", "npm:2.29.3"],\
             ["feed", "npm:4.2.2"],\
             ["next", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:13.5.6"],\
-            ["next-sitemap", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:3.1.43"],\
+            ["next-sitemap", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:3.1.55"],\
             ["postcss", "npm:8.4.21"],\
             ["prettier", "npm:2.4.1"],\
             ["react", "npm:18.2.0"],\
@@ -2460,17 +2460,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["next-sitemap", [\
-        ["npm:3.1.43", {\
-          "packageLocation": "./.yarn/cache/next-sitemap-npm-3.1.43-440d54e15f-70630056b7.zip/node_modules/next-sitemap/",\
+        ["npm:3.1.55", {\
+          "packageLocation": "./.yarn/cache/next-sitemap-npm-3.1.55-a593a5758a-1c3a768656.zip/node_modules/next-sitemap/",\
           "packageDependencies": [\
-            ["next-sitemap", "npm:3.1.43"]\
+            ["next-sitemap", "npm:3.1.55"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:3.1.43", {\
-          "packageLocation": "./.yarn/__virtual__/next-sitemap-virtual-abea258382/0/cache/next-sitemap-npm-3.1.43-440d54e15f-70630056b7.zip/node_modules/next-sitemap/",\
+        ["virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:3.1.55", {\
+          "packageLocation": "./.yarn/__virtual__/next-sitemap-virtual-8b6dd6c2c9/0/cache/next-sitemap-npm-3.1.55-a593a5758a-1c3a768656.zip/node_modules/next-sitemap/",\
           "packageDependencies": [\
-            ["next-sitemap", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:3.1.43"],\
+            ["next-sitemap", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:3.1.55"],\
             ["@corex/deepmerge", "npm:4.0.29"],\
             ["@next/env", "npm:13.5.6"],\
             ["@types/next", null],\
@@ -3102,7 +3102,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["date-fns", "npm:2.29.3"],\
             ["feed", "npm:4.2.2"],\
             ["next", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:13.5.6"],\
-            ["next-sitemap", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:3.1.43"],\
+            ["next-sitemap", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:3.1.55"],\
             ["postcss", "npm:8.4.21"],\
             ["prettier", "npm:2.4.1"],\
             ["react", "npm:18.2.0"],\

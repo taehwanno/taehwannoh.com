@@ -2009,8 +2009,8 @@ __metadata:
   linkType: hard
 
 "next-sitemap@npm:^3.1.43":
-  version: 3.1.43
-  resolution: "next-sitemap@npm:3.1.43"
+  version: 3.1.55
+  resolution: "next-sitemap@npm:3.1.55"
   dependencies:
     "@corex/deepmerge": ^4.0.29
     minimist: ^1.2.7
@@ -2020,7 +2020,7 @@ __metadata:
   bin:
     next-sitemap: bin/next-sitemap.mjs
     next-sitemap-cjs: bin/next-sitemap.cjs
-  checksum: 70630056b77bf570053614919ab8a8313f439679d7a8f27976ed51be913c121ff157114112f7e99d0617f82c5e32b88e7eeb505bab0b46b704bd4afb2b0195ef
+  checksum: 1c3a7686565203275cf3004d3ec7c8b487468454cf0ffd72a168ac395c740843daee5f670019bb14faa9055773ce6203ac52596d8cc7a48b1b12cfb1bad6a691
   languageName: node
   linkType: hard
 
