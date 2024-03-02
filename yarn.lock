@@ -33,10 +33,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@corex/deepmerge@npm:^4.0.29":
-  version: 4.0.29
-  resolution: "@corex/deepmerge@npm:4.0.29"
-  checksum: 78626fd29cb9cbd2953ce5a06f963132c9b4837bb76397982d255131533b61c3ef447f0d295f300aa6b2c3ead182a6fe2e4763181e06a2124df28c08205de1d2
+"@corex/deepmerge@npm:^4.0.43":
+  version: 4.0.43
+  resolution: "@corex/deepmerge@npm:4.0.43"
+  checksum: f0103bfcfb9938ba478868fad522b018b92615ba186b0322c92aa1f57e539b87d4379d88fee3a404264a83bd4b13c384cfb07834377997d6d71cd840a880b4c4
   languageName: node
   linkType: hard
 
@@ -63,7 +63,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/env@npm:13.5.6, @next/env@npm:^13.0.7":
+"@next/env@npm:13.5.6, @next/env@npm:^13.0.7, @next/env@npm:^13.4.3":
   version: 13.5.6
   resolution: "@next/env@npm:13.5.6"
   checksum: 5e8f3f6f987a15dad3cd7b2bcac64a6382c2ec372d95d0ce6ab295eb59c9731222017eebf71ff3005932de2571f7543bce7e5c6a8c90030207fb819404138dc2
@@ -1867,10 +1867,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimist@npm:^1.2.7":
-  version: 1.2.7
-  resolution: "minimist@npm:1.2.7"
-  checksum: 7346574a1038ca23c32e02252f603801f09384dd1d78b69a943a4e8c2c28730b80e96193882d3d3b22a063445f460e48316b29b8a25addca2d7e5e8f75478bec
+"minimist@npm:^1.2.8":
+  version: 1.2.8
+  resolution: "minimist@npm:1.2.8"
+  checksum: 75a6d645fb122dad29c06a7597bddea977258957ed88d7a6df59b5cd3fe4a527e253e9bbf2e783e4b73657f9098b96a5fe96ab8a113655d4109108577ecf85b0
   languageName: node
   linkType: hard
 
@@ -2008,19 +2008,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next-sitemap@npm:^3.1.43":
-  version: 3.1.43
-  resolution: "next-sitemap@npm:3.1.43"
+"next-sitemap@npm:^4.0.0":
+  version: 4.2.3
+  resolution: "next-sitemap@npm:4.2.3"
   dependencies:
-    "@corex/deepmerge": ^4.0.29
-    minimist: ^1.2.7
+    "@corex/deepmerge": ^4.0.43
+    "@next/env": ^13.4.3
+    fast-glob: ^3.2.12
+    minimist: ^1.2.8
   peerDependencies:
-    "@next/env": "*"
     next: "*"
   bin:
     next-sitemap: bin/next-sitemap.mjs
     next-sitemap-cjs: bin/next-sitemap.cjs
-  checksum: 70630056b77bf570053614919ab8a8313f439679d7a8f27976ed51be913c121ff157114112f7e99d0617f82c5e32b88e7eeb505bab0b46b704bd4afb2b0195ef
+  checksum: 322cbbf11b6549b7bd5acda98f60a4ef6bb6627e6cd5b4a9367aa8950edf6bcc90f47f4da74a18ecdd823f52c0f625b559b4165dbd27f292c731b222e38fa105
   languageName: node
   linkType: hard
 
@@ -2582,7 +2583,7 @@ __metadata:
     date-fns: 2.29.3
     feed: ^4.2.2
     next: 13.5.6
-    next-sitemap: ^3.1.43
+    next-sitemap: ^4.0.0
     postcss: 8.4.21
     prettier: ^2.4.1
     react: ^18.2.0
