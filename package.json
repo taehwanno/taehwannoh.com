@@ -29,7 +29,7 @@
     "@types/node": "^18.0.0",
     "@types/react": "18.2.61",
     "@types/react-dom": "18.2.19",
-    "autoprefixer": "10.4.13",
+    "autoprefixer": "10.4.18",
     "contentful-import": "^8.0.0",
     "postcss": "8.4.21",
     "prettier": "^2.4.1",
