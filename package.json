@@ -14,7 +14,7 @@
     "@contentful/rich-text-types": "^16.0.2",
     "@next/swc-darwin-arm64": "^13.1.6",
     "@next/swc-linux-x64-gnu": "^13.0.7",
-    "classnames": "2.3.2",
+    "classnames": "2.5.1",
     "date-fns": "2.29.3",
     "feed": "^4.2.2",
     "next": "13.5.6",
