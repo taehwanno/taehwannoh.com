@@ -34,7 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@next/env", "npm:13.5.6"],\
             ["@next/swc-darwin-arm64", "npm:13.5.6"],\
             ["@next/swc-linux-x64-gnu", "npm:13.5.6"],\
-            ["@types/gtag.js", "npm:0.0.19"],\
+            ["@types/gtag.js", "npm:0.0.20"],\
             ["@types/node", "npm:18.19.21"],\
             ["@types/react", "npm:18.2.61"],\
             ["@types/react-dom", "npm:18.2.19"],\
@@ -468,10 +468,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/gtag.js", [\
-        ["npm:0.0.19", {\
-          "packageLocation": "./.yarn/cache/@types-gtag.js-npm-0.0.19-8d50f84a08-7ecd5ae645.zip/node_modules/@types/gtag.js/",\
+        ["npm:0.0.20", {\
+          "packageLocation": "./.yarn/cache/@types-gtag.js-npm-0.0.20-b10897fde5-02e16dcaa6.zip/node_modules/@types/gtag.js/",\
           "packageDependencies": [\
-            ["@types/gtag.js", "npm:0.0.19"]\
+            ["@types/gtag.js", "npm:0.0.20"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3329,7 +3329,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@next/env", "npm:13.5.6"],\
             ["@next/swc-darwin-arm64", "npm:13.5.6"],\
             ["@next/swc-linux-x64-gnu", "npm:13.5.6"],\
-            ["@types/gtag.js", "npm:0.0.19"],\
+            ["@types/gtag.js", "npm:0.0.20"],\
             ["@types/node", "npm:18.19.21"],\
             ["@types/react", "npm:18.2.61"],\
             ["@types/react-dom", "npm:18.2.19"],\

@@ -321,10 +321,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/gtag.js@npm:^0.0.19":
-  version: 0.0.19
-  resolution: "@types/gtag.js@npm:0.0.19"
-  checksum: 7ecd5ae645a33f02ca886f2ba0419b20c95358b80ef389a2dc42e80fbf850e92139e868f18d04285f93cdadbf6cb8861a64a7e77cc42eb6b8c84d3e812604192
+"@types/gtag.js@npm:^0.0.20":
+  version: 0.0.20
+  resolution: "@types/gtag.js@npm:0.0.20"
+  checksum: 02e16dcaa64ad643e9c78bd0bd041e2b01b9ac4aea0da5bcbd226442a38c8d44f9a50bbc70d0c8219afc455e9850b6af73d4152f52f8bd61f81c8ba32efec42f
   languageName: node
   linkType: hard
 
@@ -2807,7 +2807,7 @@ __metadata:
     "@next/env": ^13.0.7
     "@next/swc-darwin-arm64": ^13.1.6
     "@next/swc-linux-x64-gnu": ^13.0.7
-    "@types/gtag.js": ^0.0.19
+    "@types/gtag.js": ^0.0.20
     "@types/node": ^18.0.0
     "@types/react": 18.2.61
     "@types/react-dom": 18.2.19
