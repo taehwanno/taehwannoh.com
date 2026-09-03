@@ -142,17 +142,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/env@npm:13.5.6, @next/env@npm:^13.0.7, @next/env@npm:^13.4.3":
+"@next/env@npm:13.5.6":
   version: 13.5.6
   resolution: "@next/env@npm:13.5.6"
   checksum: 5e8f3f6f987a15dad3cd7b2bcac64a6382c2ec372d95d0ce6ab295eb59c9731222017eebf71ff3005932de2571f7543bce7e5c6a8c90030207fb819404138dc2
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-arm64@npm:13.5.6, @next/swc-darwin-arm64@npm:^13.1.6":
+"@next/env@npm:^13.0.7, @next/env@npm:^13.4.3":
+  version: 13.5.11
+  resolution: "@next/env@npm:13.5.11"
+  checksum: 1d19fb97ecdda14d2ea91b251e01b5e38046e42b161572c17abe55c1b77b329067fd3a5d120c35e22d84661f09d80bd2479ca355150cefc17c9a8120998f784a
+  languageName: node
+  linkType: hard
+
+"@next/swc-darwin-arm64@npm:13.5.6":
   version: 13.5.6
   resolution: "@next/swc-darwin-arm64@npm:13.5.6"
-  checksum: 598648e27bf75cbeb45158948a35407949c1d68f94a58d663d3cff64c11b23f6f9d202341c72b2318e0057ff581a0bb50e7d41ae470bdb7a5eac7533669e02eb
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@next/swc-darwin-arm64@npm:^13.1.6":
+  version: 13.5.10
+  resolution: "@next/swc-darwin-arm64@npm:13.5.10"
+  checksum: eb6becce7080e4309ac00fca8444ca00217d20dbdbf70b255cc4950e8a7c6b41d10fd3c6c44e36c3ef90cae420e545ffcdd54c12d1eeb3e8b2e8c28d6d7d3d1e
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
@@ -178,10 +192,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-gnu@npm:13.5.6, @next/swc-linux-x64-gnu@npm:^13.0.7":
+"@next/swc-linux-x64-gnu@npm:13.5.6":
   version: 13.5.6
   resolution: "@next/swc-linux-x64-gnu@npm:13.5.6"
-  checksum: a3f1c74236b2182787a2298eb30c482e72a5f324b2d1ab3f294e6230c66e31a545e10d8f0f5fc0f86aeb8c02d858c0bf6c9e8b8b2e5e31526de5b2872157ccca
+  conditions: os=linux & cpu=x64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@next/swc-linux-x64-gnu@npm:^13.0.7":
+  version: 13.5.10
+  resolution: "@next/swc-linux-x64-gnu@npm:13.5.10"
+  checksum: e3992329606dfa3bbb4f8e28fe5158baeca6c342fdbe5beff72bb1b468d92a13fa5ca1ea866d4dc41ed6838e5e075e6612682970a8b0183c66cb04081cb8a110
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard

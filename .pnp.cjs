@@ -31,9 +31,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@contentful/rich-text-plain-text-renderer", "npm:16.0.11"],\
             ["@contentful/rich-text-react-renderer", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:15.19.4"],\
             ["@contentful/rich-text-types", "npm:16.3.4"],\
-            ["@next/env", "npm:13.5.6"],\
-            ["@next/swc-darwin-arm64", "npm:13.5.6"],\
-            ["@next/swc-linux-x64-gnu", "npm:13.5.6"],\
+            ["@next/env", "npm:13.5.11"],\
+            ["@next/swc-darwin-arm64", "npm:13.5.10"],\
+            ["@next/swc-linux-x64-gnu", "npm:13.5.10"],\
             ["@types/gtag.js", "npm:0.0.19"],\
             ["@types/node", "npm:18.19.21"],\
             ["@types/react", "npm:18.2.61"],\
@@ -242,6 +242,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@next/env", [\
+        ["npm:13.5.11", {\
+          "packageLocation": "./.yarn/cache/@next-env-npm-13.5.11-7bdb393acd-1d19fb97ec.zip/node_modules/@next/env/",\
+          "packageDependencies": [\
+            ["@next/env", "npm:13.5.11"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:13.5.6", {\
           "packageLocation": "./.yarn/cache/@next-env-npm-13.5.6-8fa321d68d-5e8f3f6f98.zip/node_modules/@next/env/",\
           "packageDependencies": [\
@@ -251,6 +258,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@next/swc-darwin-arm64", [\
+        ["npm:13.5.10", {\
+          "packageLocation": "./.yarn/unplugged/@next-swc-darwin-arm64-npm-13.5.10-ef753bb0a3/node_modules/@next/swc-darwin-arm64/",\
+          "packageDependencies": [\
+            ["@next/swc-darwin-arm64", "npm:13.5.10"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:13.5.6", {\
           "packageLocation": "./.yarn/unplugged/@next-swc-darwin-arm64-npm-13.5.6-8aaf0355d3/node_modules/@next/swc-darwin-arm64/",\
           "packageDependencies": [\
@@ -287,6 +301,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@next/swc-linux-x64-gnu", [\
+        ["npm:13.5.10", {\
+          "packageLocation": "./.yarn/unplugged/@next-swc-linux-x64-gnu-npm-13.5.10-f8273bbd3b/node_modules/@next/swc-linux-x64-gnu/",\
+          "packageDependencies": [\
+            ["@next/swc-linux-x64-gnu", "npm:13.5.10"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:13.5.6", {\
           "packageLocation": "./.yarn/unplugged/@next-swc-linux-x64-gnu-npm-13.5.6-4b2c3a039f/node_modules/@next/swc-linux-x64-gnu/",\
           "packageDependencies": [\
@@ -2663,7 +2684,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["next-sitemap", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:4.2.3"],\
             ["@corex/deepmerge", "npm:4.0.43"],\
-            ["@next/env", "npm:13.5.6"],\
+            ["@next/env", "npm:13.5.11"],\
             ["@types/next", null],\
             ["fast-glob", "npm:3.2.12"],\
             ["minimist", "npm:1.2.8"],\
@@ -3326,9 +3347,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@contentful/rich-text-plain-text-renderer", "npm:16.0.11"],\
             ["@contentful/rich-text-react-renderer", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:15.19.4"],\
             ["@contentful/rich-text-types", "npm:16.3.4"],\
-            ["@next/env", "npm:13.5.6"],\
-            ["@next/swc-darwin-arm64", "npm:13.5.6"],\
-            ["@next/swc-linux-x64-gnu", "npm:13.5.6"],\
+            ["@next/env", "npm:13.5.11"],\
+            ["@next/swc-darwin-arm64", "npm:13.5.10"],\
+            ["@next/swc-linux-x64-gnu", "npm:13.5.10"],\
             ["@types/gtag.js", "npm:0.0.19"],\
             ["@types/node", "npm:18.19.21"],\
             ["@types/react", "npm:18.2.61"],\
