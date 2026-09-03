@@ -28,9 +28,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@contentful/rich-text-plain-text-renderer", "npm:16.0.11"],\
-            ["@contentful/rich-text-react-renderer", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:15.19.4"],\
-            ["@contentful/rich-text-types", "npm:16.3.4"],\
+            ["@contentful/rich-text-plain-text-renderer", "npm:16.2.10"],\
+            ["@contentful/rich-text-react-renderer", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:15.22.11"],\
+            ["@contentful/rich-text-types", "npm:16.8.5"],\
             ["@next/env", "npm:13.5.6"],\
             ["@next/swc-darwin-arm64", "npm:13.5.6"],\
             ["@next/swc-linux-x64-gnu", "npm:13.5.6"],\
@@ -76,28 +76,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@contentful/rich-text-plain-text-renderer", [\
-        ["npm:16.0.11", {\
-          "packageLocation": "./.yarn/cache/@contentful-rich-text-plain-text-renderer-npm-16.0.11-3eef971123-719b2e3904.zip/node_modules/@contentful/rich-text-plain-text-renderer/",\
+        ["npm:16.2.10", {\
+          "packageLocation": "./.yarn/cache/@contentful-rich-text-plain-text-renderer-npm-16.2.10-8fa23b269e-9be244bdfe.zip/node_modules/@contentful/rich-text-plain-text-renderer/",\
           "packageDependencies": [\
-            ["@contentful/rich-text-plain-text-renderer", "npm:16.0.11"],\
-            ["@contentful/rich-text-types", "npm:16.3.4"]\
+            ["@contentful/rich-text-plain-text-renderer", "npm:16.2.10"],\
+            ["@contentful/rich-text-types", "npm:16.8.5"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@contentful/rich-text-react-renderer", [\
-        ["npm:15.19.4", {\
-          "packageLocation": "./.yarn/cache/@contentful-rich-text-react-renderer-npm-15.19.4-f23d72f1bc-eaf4b48418.zip/node_modules/@contentful/rich-text-react-renderer/",\
+        ["npm:15.22.11", {\
+          "packageLocation": "./.yarn/cache/@contentful-rich-text-react-renderer-npm-15.22.11-8c8d9199d2-399a095159.zip/node_modules/@contentful/rich-text-react-renderer/",\
           "packageDependencies": [\
-            ["@contentful/rich-text-react-renderer", "npm:15.19.4"]\
+            ["@contentful/rich-text-react-renderer", "npm:15.22.11"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:15.19.4", {\
-          "packageLocation": "./.yarn/__virtual__/@contentful-rich-text-react-renderer-virtual-1ae80f4db7/0/cache/@contentful-rich-text-react-renderer-npm-15.19.4-f23d72f1bc-eaf4b48418.zip/node_modules/@contentful/rich-text-react-renderer/",\
+        ["virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:15.22.11", {\
+          "packageLocation": "./.yarn/__virtual__/@contentful-rich-text-react-renderer-virtual-06cc20e0b0/0/cache/@contentful-rich-text-react-renderer-npm-15.22.11-8c8d9199d2-399a095159.zip/node_modules/@contentful/rich-text-react-renderer/",\
           "packageDependencies": [\
-            ["@contentful/rich-text-react-renderer", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:15.19.4"],\
-            ["@contentful/rich-text-types", "npm:16.3.4"],\
+            ["@contentful/rich-text-react-renderer", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:15.22.11"],\
+            ["@contentful/rich-text-types", "npm:16.8.5"],\
             ["@types/react", "npm:18.2.61"],\
             ["@types/react-dom", "npm:18.2.19"],\
             ["react", "npm:18.2.0"],\
@@ -113,10 +113,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@contentful/rich-text-types", [\
-        ["npm:16.3.4", {\
-          "packageLocation": "./.yarn/cache/@contentful-rich-text-types-npm-16.3.4-c3d94789aa-16bd16d308.zip/node_modules/@contentful/rich-text-types/",\
+        ["npm:16.8.5", {\
+          "packageLocation": "./.yarn/cache/@contentful-rich-text-types-npm-16.8.5-065a94d413-60f8bd00cc.zip/node_modules/@contentful/rich-text-types/",\
           "packageDependencies": [\
-            ["@contentful/rich-text-types", "npm:16.3.4"]\
+            ["@contentful/rich-text-types", "npm:16.8.5"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1183,7 +1183,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/contentful-management-npm-10.46.4-fc918bfbec-8604823a49.zip/node_modules/contentful-management/",\
           "packageDependencies": [\
             ["contentful-management", "npm:10.46.4"],\
-            ["@contentful/rich-text-types", "npm:16.3.4"],\
+            ["@contentful/rich-text-types", "npm:16.8.5"],\
             ["@types/json-patch", "npm:0.0.30"],\
             ["axios", "npm:1.6.7"],\
             ["contentful-sdk-core", "npm:8.1.2"],\
@@ -3323,9 +3323,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["root-workspace-0b6124", "workspace:."],\
-            ["@contentful/rich-text-plain-text-renderer", "npm:16.0.11"],\
-            ["@contentful/rich-text-react-renderer", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:15.19.4"],\
-            ["@contentful/rich-text-types", "npm:16.3.4"],\
+            ["@contentful/rich-text-plain-text-renderer", "npm:16.2.10"],\
+            ["@contentful/rich-text-react-renderer", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:15.22.11"],\
+            ["@contentful/rich-text-types", "npm:16.8.5"],\
             ["@next/env", "npm:13.5.6"],\
             ["@next/swc-darwin-arm64", "npm:13.5.6"],\
             ["@next/swc-linux-x64-gnu", "npm:13.5.6"],\
